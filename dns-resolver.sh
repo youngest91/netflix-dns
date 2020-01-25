@@ -33,17 +33,17 @@ CDN() {
 	PREFIX1=`echo $i | cut -d ' ' -f1`
 	PREFIX2=`echo $i | cut -d ' ' -f2`
 	if [ $PREFIXNUMBER == 1 ]; then
-		for j in {1..2};do
+		for j in {1..100};do
 			DOMAIN="$PREFIX1$j$PREFIX2"
 			RESOLVER
 		done
 	elif [ $PREFIXNUMBER == 2 ]; then
-		for j in {01..02};do
+		for j in {01..100};do
 			DOMAIN="$PREFIX1$j$PREFIX2"
 			RESOLVER
 		done
 	elif [ $PREFIXNUMBER == 3 ]; then
-		for j in {001..002};do
+		for j in {001..100};do
 			DOMAIN="$PREFIX1$j$PREFIX2"
 			RESOLVER
 		done
