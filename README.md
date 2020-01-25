@@ -1,6 +1,6 @@
 # Netflix DNS Resolver
 
-Link : [http://let.my.id/netflix/hosts.txt](http://let.my.id/netflix/hosts.txt)
+Link : [https://let.my.id/netflix/hosts.txt](https://let.my.id/netflix/hosts.txt)
 
 
 ## Add domain lists

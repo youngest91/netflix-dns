@@ -7,7 +7,7 @@ if [ ! -f $FILENAME ]; then
 fi
 
 echo "# Author : Galih < me@galihyoungest.web.id >" > $FILENAME
-echo "# http://let.my.id/netflix/hosts.txt" >> $FILENAME
+echo "# https://let.my.id/netflix/hosts.txt" >> $FILENAME
 echo "# netflix-dns" >> $FILENAME
 
 RESOLVER() {
